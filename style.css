@@ -1,0 +1,30 @@
+body {
+    background-color: #24353F;
+    color: white;
+}
+h2 {
+    text-align: center;
+    margin-left: 40px;
+    padding-top: 60px;
+    color: #17A2B8;
+}
+.design {
+    padding-top: 35px;
+    margin-left: 40px;
+}
+.container {
+    margin-top: 80px;
+    background-color: #1B282F;
+    height: 400px;
+    width: 75%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.btn {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 96%;
+}
+.form-control {
+    background-color:#1B282F;
+    margin-top: 20px;
+}
