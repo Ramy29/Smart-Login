@@ -1,6 +1,9 @@
 body {
     background-color: #24353F;
-    color: white;
+    color: #17A2B8;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
 }
 h2 {
     text-align: center;
@@ -12,18 +15,21 @@ h2 {
     padding-top: 35px;
     margin-left: 40px;
 }
+#in {
+    padding-top: 9%;
+}
 .container {
-    margin-top: 80px;
+    margin-top: 180px;
     background-color: #1B282F;
-    height: 450px;
-    width: 50%;
+    height: 150px;
+    width: 35%;
     box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
-    margin-left: 250px;
+    margin-left: 450px;
 }
 .btn {
-    margin-top: 20px;
-    margin-left: 40px;
-    width: 96%;
+ background-color: rgba(220, 20, 60, 0.466);
+ color: black;
+ margin-left: 950px;
 }
 .form-control {
     background-color:#1B282F;

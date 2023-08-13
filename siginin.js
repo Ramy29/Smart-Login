@@ -24,7 +24,11 @@ function validate(){
     }
      signUpArray.push(NewElement)
     localStorage.setItem('users', JSON.stringify(signUpArray))
-
+    swal({
+        title:"Sucess",
+        text:"Data Has Been Added",
+        icon:"success"
+    })
     
     validate()
  
