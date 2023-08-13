@@ -12,6 +12,7 @@ function validate(){
         for (var i = 0; i < signUpArray.length; i++) {
             if (signUpArray[i].email.toLowerCase() == emailinput.value.toLowerCase()) {
                location.href='home.html'
+               localStorage.setItem('username',signUpArray[i].name)
             }
         }
     }
